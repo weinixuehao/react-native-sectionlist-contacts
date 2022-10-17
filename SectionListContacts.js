@@ -7,13 +7,12 @@ import {
     StyleSheet,
     View,
     Text,
-    ViewPropTypes,
     Animated,
     Dimensions,
     TouchableWithoutFeedback,
     SectionList,
 } from 'react-native';
-import { TextPropTypes } from "deprecated-react-native-prop-types"
+import { ViewPropTypes, TextPropTypes } from "deprecated-react-native-prop-types"
 
 const { width, height } = Dimensions.get('window');
 import { makePy } from "./getFirstAlphabet";
